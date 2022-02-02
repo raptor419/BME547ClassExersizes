@@ -14,7 +14,7 @@ def check_HDL(hdl):
     elif hdl<40:
         print("Low")
         
-def check_HDL(ldl):
+def check_LDL(ldl):
     if ldl>=190:
         print("Very High")
     elif ldl>=130 and ldl<160:
