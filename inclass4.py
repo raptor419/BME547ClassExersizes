@@ -61,7 +61,8 @@ def main(name=None):
     if name is None:
         name = netid
     recipient, donor = get_rec_don(name)
-    recipient_type, donor_type = get_blood_type(pid)
+    recipient_type = get_blood_type(recipient)
+    donor_type = get_blood_type(donor)
     answer = check_match(recipient, donor)
     check_answer(name, answer)
 
