@@ -3,7 +3,7 @@ import requests
 url = "http://vcm-7631.vm.duke.edu:5002"
 netid = "hb170"
 get_patients = "/get_patients/"
-get_btype = "/get_blood_type/
+get_btype = "/get_blood_type/"
 match_check = "/match_check"
 
 
