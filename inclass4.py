@@ -22,6 +22,7 @@ def get_blood_type(pid):
 
 
 def check_match(recipient, donor):
+    type1, type2 = recipient, donor
     match = "No"
     if type1 == "O+":
         if type2 in ["O+", "O-"]:
